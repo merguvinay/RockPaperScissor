@@ -1,0 +1,93 @@
+*{
+    margin:0px;
+}
+
+.heading{
+    height:50px;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+#out{
+    display: flex;
+    flex-direction: column;
+}
+.pics{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;    
+}
+
+.img{
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 150px;
+    height:150px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    border: 5px solid black;
+
+}
+#rock{
+    background-image: url("rock.png");
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+#paper{
+    background-image: url("paper.png");
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+#scissors{
+    background-image: url("scissors.png");
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.score-board{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+
+}
+.score-board p {
+    font-weight: 700;
+    margin-right: 20px;
+}
+#scBox{
+    height:50px;
+    width:50px;
+}
+
+.msg-container{
+    margin-top: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#msg{
+    color: white;
+    background-color: rgb(48, 2, 48);
+    font-size: 1.3rem;
+    display: inline;
+    border-radius: 5px;
+    
+    
+}
